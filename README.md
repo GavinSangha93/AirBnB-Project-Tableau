@@ -140,32 +140,152 @@ This project demonstrates the ability to:
 - Communicate insights through data visualization
 - Translate data into actionable recommendations
 
-<h2>Dashboard Preview</h2>
+<h1>Dashboard Summary</h1>
 
-<p align="center">
+The interactive dashboard consolidates these analyses into a single business intelligence tool that enables users to:
 
-<img src="https://imgur.com/HQucnzD.png" height="100%" width="100%"/>
-<br />
-<br />
+- Explore pricing differences across geographic markets
+- Identify high-performing zip codes
+- Evaluate the relationship between property size and pricing
+- Analyze annual revenue trends
+- Understand market supply distribution
 
-<img src="https://imgur.com/QnFTYAQ.png" height="100%" width="100%" />
-<br />
-<br />
-
-<img src="https://imgur.com/xlUxeKL.png" height="100%" width="100%"/>
-<br />
-<br />
-
-<img src="https://imgur.com/hJotNdn.png" height="100%" width="100%" />
-<br />
-<br />
-
-<img src="https://imgur.com/DaXiWux.png" height="100%" width="100%"/>
-<br />
-<br />
 
 <img src="https://imgur.com/ZdAYLBq.png" height="100%" width="100%" />
 <br />
 <br />
 
+<h2>Dashboard Components and Analysis</h2>
+
+<p align="center">
+    
+<h3>1. Price By Zipcode</h3>
+
+<b>Purpose</b> 
+
+This visualization analyzes the average Airbnb listing price across zip codes to identify geographic pricing trends.
+
+<b>Analysis Performed</b>
+
+- Grouped listings by zip code
+- Calculated the average listing price for each location
+- Compared price variations across different areas
+
+<b>Business Value</b>
+
+This analysis helps investors and hosts identify premium markets where properties command higher prices.
+
+<b>Key Insight</b>
+
+Location is a major factor influencing Airbnb pricing, with some zip codes significantly outperforming others.   
+
+<img src="https://imgur.com/HQucnzD.png" height="100%" width="100%"/>
+<br />
+<br />
+
+<h3>2. Price Per Zipcode (Geographic Map)</h3>
+
+<b>Purpose</b>
+
+This map visualization displays Airbnb prices geographically to provide spatial context.
+
+<b>Analysis Performed</b>
+
+- Plotted listings using generated latitude and longitude coordinates
+- Visualized price distribution geographically
+- Highlighted pricing clusters across different areas
+
+<b>Business Value</b>
+
+Geographic visualizations allow stakeholders to quickly identify high-performing markets and potential investment opportunities.
+
+<b>Key Insight</b>
+
+Airbnb pricing is not evenly distributed and tends to cluster in specific geographic areas.
+
+<img src="https://imgur.com/QnFTYAQ.png" height="100%" width="100%" />
+<br />
+<br />
+
+<h3>3. Revenue For Year</h3>
+
+<b>Purpose</b>
+
+This visualization examines revenue trends over time to understand annual market performance.
+
+<b>Analysis Performed</b>
+
+- Aggregated calendar pricing data
+- Summed revenue values over time
+- Visualized seasonal fluctuations throughout the year
+
+<b>Business Value</b>
+
+Revenue trends help hosts and investors understand periods of higher demand and adjust pricing strategies accordingly.
+
+<b>Key Insight</b>
+
+Revenue patterns fluctuate throughout the year, demonstrating the seasonality of the short-term rental market.
+
+<img src="https://imgur.com/xlUxeKL.png" height="100%" width="100%"/>
+<br />
+<br />
+
+<h3>4. Average Price per Bedroom</h3>
+
+<b>Purpose</b>
+
+This analysis evaluates how property size influences listing prices.
+
+<b>Analysis Performed</b>
+
+- Grouped listings by bedroom count
+- Calculated average prices for each category
+- Compared pricing differences across property sizes
+
+<b>Business Value</b>
+
+This visualization helps determine whether larger properties justify higher pricing.
+
+<b>Key Insight</b>
+
+Properties with more bedrooms generally command higher prices, although price increases are not always proportional to bedroom count.
+
+<img src="https://imgur.com/hJotNdn.png" height="100%" width="100%" />
+<br />
+<br />
+
+<h3>5. Distinct Count of Bedroom Listings</h3>
+
+<b>Purpose</b>
+
+This visualization measures the inventory distribution of Airbnb properties by bedroom count.
+
+<b>Analysis Performed</b>
+
+- Counted distinct listings for each bedroom category
+- Evaluated supply distribution within the market
+- Identified the most common property sizes
+
+<b>Business Value</b>
+
+Understanding market inventory helps hosts and investors identify saturated versus underserved segments.
+
+<b>Key Insight</b>
+
+Certain bedroom categories dominate the Airbnb market, revealing where competition is highest.
+
+<img src="https://imgur.com/DaXiWux.png" height="100%" width="100%"/>
+<br />
+<br />
+
+<h1>Business Recommendations</h1>
+
+Based on the analysis, stakeholders could:
+
+1. Prioritize investments in higher-priced zip codes.
+2. Use bedroom count as a pricing strategy input.
+3. Adjust pricing to account for seasonal demand fluctuations.
+4. Identify underserved market segments with lower competition.
+5. Use geographic analysis to discover emerging opportunities.
 
