@@ -1,78 +1,145 @@
-<h1>Airbnb Market Analysis Dashboard</h1>
+<h1>Airbnb Investment & Pricing Analysis Dashboard | Tableau Public</h1>
 
 <h2>Project Overview</h2>
-Developed an interactive Tableau dashboard to analyze Airbnb market trends using a multi-table dataset containing listing, review, and calendar information. The project transformed raw Airbnb data into actionable insights by exploring pricing patterns, neighborhood demand, room type distribution, host performance, and availability metrics.
+This project leverages Tableau Public to analyze Airbnb market data and build an interactive business intelligence dashboard that helps identify pricing patterns, revenue opportunities, and high-performing geographic markets.
+<br />
+<br />
+Using Airbnb listing and calendar datasets, the dashboard transforms thousands of rows of raw data into a visual decision-making tool that can assist hosts, investors, and stakeholders in evaluating potential opportunities within the short-term rental market.
+
+<br />
+<br />
+The project demonstrates how data visualization can simplify complex datasets and convert them into actionable business insights.
 
 
 <h2>Business Problem</h2>
-The short-term rental market is highly competitive, making it difficult for hosts, investors, and business stakeholders to determine which neighborhoods, property types, and pricing strategies maximize profitability and occupancy.
+The rapid growth of short-term rental platforms has created a highly competitive market for property owners and investors. Determining where to invest, how to price properties, and which property characteristics maximize revenue can be difficult without proper analysis.
 <br/>
 <br/> 
-Without proper analysis, decision-makers may struggle to answer questions such as:
+Stakeholders need answers to several business questions:
 
 <br />
 <br />
 
-- Which neighborhoods generate the highest demand?
-- Which room types are most popular among guests?
-- How do listing prices vary across different areas?
-- Which markets present the best opportunities for hosts?
-- How can pricing strategies be optimized?
+- Which zip codes generate the highest Airbnb prices?
+- How does the number of bedrooms impact pricing?
+- Which markets may provide stronger investment opportunities?
+- What areas have the greatest revenue potential?
+- How can data be used to support pricing strategies?
 
-This dashboard was created to provide a centralized, interactive solution that supports data-driven decision-making.
+This project was developed to provide an interactive solution that enables users to explore these questions and support data-driven decision-making.
 
-<h2>Objectives</h2> 
+<h2>Dataset Information</h2> 
 
-- Analyze Airbnb listing distribution across neighborhoods
-- Identify pricing trends and high-value markets
-- Compare room type popularity among guests
-- Evaluate host and property performance metrics
-- Create an interactive dashboard that allows users to explore Airbnb market behavior
+The analysis uses Airbnb datasets imported from Microsoft Excel and integrated within Tableau Public.
 
-<h2>Key Features</h2> 
+<b> Listings Dataset </b>
 
-- Interactive filters and dashboard navigation
-- Neighborhood-level market analysis
-- Room type segmentation
-- Pricing comparisons across locations
-- Airbnb availability and occupancy insights
-- User-friendly visual storytelling
+Contains property-level information, including:
+
+- Listing ID
+- Property information
+- Zip code location
+- Number of bedrooms
+- Property type
+- Pricing information
+- Host details
+- Availability metrics
+
+<b>Calendar Dataset</b>
+
+Contains daily operational data, including:
+
+- Listing ID
+- Dates
+- Availability status
+- Daily pricing information
+
+The datasets were connected within Tableau to create a unified analytical model.
+
+<h2>Analytical Questions Addressed</h2> 
+
+This dashboard was built to answer the following questions:
+
+1. Which zip codes command the highest Airbnb prices?
+2. How does pricing change as the number of bedrooms increases?
+3. Which geographic markets may offer stronger investment opportunities?
+4. What annual revenue patterns emerge from the available data?
+5. How can interactive visualizations improve business decision-making?
 
 <h2>Analysis Performed</h2>
 
 Several exploratory analyses were conducted to identify patterns and relationships within the data.
 
-- <b>Neighborhood Analysis</b>
-    - Evaluated listing concentrations across neighborhoods.
-    - Identified high-demand areas with greater market activity.
+- <b>Geographic Market Analysis</b>
+    - Analyzed Airbnb pricing across multiple zip codes to identify high-value markets and geographic pricing disparities.
   
-- <b> Pricing Analysis </b>
-    - Compared average listing prices across neighborhoods.
-    - Identified pricing disparities between markets.
-- <b>Room Type Analysis</b>
-    - Analyzed the distribution of room types.
-    - Determined guest preferences among available accommodations.
-- <b>Availability Analysis</b>
-    - Examined listing availability patterns.
-    - Identified potential occupancy trends.
+- <b> Bedroom Pricing Analysis </b>
+    - Examined the relationship between property size and listing price by comparing average prices across bedroom counts.
+      
+- <b>Revenue Analysis</b>
+    - Evaluated annual revenue trends to estimate market performance and identify potential opportunities for hosts and investors.
+      
+<b>Dashboard Development</b>
+
+Built an interactive dashboard that allows users to:
+
+- Explore pricing by zip code
+- Compare average prices by bedroom count
+- Analyze annual revenue trends
+- Investigate market opportunities through visual storytelling
 
 <h2>Tools Used</h2>
   
 - Tableau Public
 - Microsoft Excel
-- Data Cleaning & Preparation
-- Interactive Dashboards
 - Data Visualization
+- Exploratory Data Analysis (EDA)
+- Dashboard Design
+- Business Intelligence Reporting
 
-<h2>Key Skills Demonstrated</h2>
+<h2>Skills Demonstrated</h2>
 
-- Data Cleaning
-- Data Storytelling
-- Dashboard Development
-- Interactive Visualization
-- Business Intelligence
+<b>Data Analysis</b>
 - Exploratory Data Analysis
-- Data-Driven Decision Making
+- Trend Identification
+- Geographic Analysis
+- Revenue Analysis
+
+<b>Data Visualization</b>
+- Interactive Dashboard Development
+- KPI Reporting
+- Visual Storytelling
+- Dashboard Design
+
+<b>Technical Skills</b>
+- Tableau Public
+- Microsoft Excel
+- Data Integration
+- Business Intelligence
 
 <h2>Environments used</h2>
 - Windows 10 (22H2)
+
+<h2>Key Insights</h2>
+
+- Airbnb pricing varies significantly across zip codes.
+- Larger properties generally command higher average prices.
+- Geographic location is a major factor influencing listing value.
+- Interactive dashboards improve the ability to identify market opportunities quickly.
+- Visual analytics can simplify large datasets into actionable insights.
+
+<h2>Project Outcome</h2>
+
+The project successfully transformed raw Airbnb data into an interactive business intelligence dashboard that enables stakeholders to identify trends, evaluate market opportunities, and make data-driven decisions.
+
+This project demonstrates the ability to:
+
+- Clean and integrate datasets
+- Build interactive dashboards
+- Analyze business problems
+- Communicate insights through data visualization
+- Translate data into actionable recommendations
+
+<h2>Dashboard Preview</h2>
+
+
