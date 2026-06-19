@@ -142,4 +142,30 @@ This project demonstrates the ability to:
 
 <h2>Dashboard Preview</h2>
 
+<p align="center">
+
+<img src="https://imgur.com/HQucnzD.png" height="100%" width="100%"/>
+<br />
+<br />
+
+<img src="https://imgur.com/QnFTYAQ.png" height="100%" width="100%" />
+<br />
+<br />
+
+<img src="https://imgur.com/xlUxeKL.png" height="100%" width="100%"/>
+<br />
+<br />
+
+<img src="https://imgur.com/hJotNdn.png" height="100%" width="100%" />
+<br />
+<br />
+
+<img src="https://imgur.com/DaXiWux.png" height="100%" width="100%"/>
+<br />
+<br />
+
+<img src="https://imgur.com/ZdAYLBq.png" height="100%" width="100%" />
+<br />
+<br />
+
 
