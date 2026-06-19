@@ -251,7 +251,7 @@ This visualization helps determine whether larger properties justify higher pric
 
 Properties with more bedrooms generally command higher prices, although price increases are not always proportional to bedroom count.
 
-<img src="https://imgur.com/hJotNdn.png" height="100%" width="100%" />
+<img src="https://imgur.com/hJotNdn.png" height="50%" width="50%" />
 <br />
 <br />
 
@@ -275,7 +275,7 @@ Understanding market inventory helps hosts and investors identify saturated vers
 
 Certain bedroom categories dominate the Airbnb market, revealing where competition is highest.
 
-<img src="https://imgur.com/DaXiWux.png" height="100%" width="100%"/>
+<img src="https://imgur.com/DaXiWux.png" height="50%" width="50%"/>
 <br />
 <br />
 
